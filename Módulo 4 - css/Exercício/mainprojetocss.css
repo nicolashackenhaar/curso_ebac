@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #201b2c, #431270);
+}
+
+body>header {
+  background-color: #2f2841;
+  padding: 16px 0;
+  color: #00ff88;
+}
+
+body header time {
+  color: white;
+
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header li {
+  display: inline;
+  font-weight: 800;
+  margin-left: 30px;
+}
+
+
+header li a {
+  color: #00ff88;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+header li a:hover {
+  text-shadow: 0px 0px 20px #ffffff;
+  text-decoration: underline;
+
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+
+
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles article img {
+  height: 180px;
+}
+
+.articles article {
+  width: 30%;
+  background-color: #2f2841;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #00000056;
+}
+
+section {
+  padding: 16px 0;
+
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00ff88;
+}
+
+section h2,
+.articles article {
+  margin-bottom: 16px;
+
+
+}
+
+.articles article h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #00ff88;
+}
+
+.articles article a {
+  background: #00ff88;
+  color: #2b134b;
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-weight: 600;
+  border: solid 2px #00ff88;
+}
+
+.articles article a:hover {
+  box-shadow: 0px 0px 15px #ffffff56;
+  border: solid 2px white;
+
+}
+
+.articles article p {
+  text-align: justify;
+  color: white;
+}
+
+
+.section-publicidade {
+  background-color: red;
+}
+
+
+.section-publicidade h2 {
+  color: black;
+}
+
+.section-publicidade article h3 {
+  color: black;
+}
+
+
+
+.section-tecnologia {
+  background-color: yellow;
+}
+
+
+.section-tecnologia h2 {
+  color: rgb(0, 204, 255);
+}
+
+.section-tecnologia article h3 {
+  color: rgb(0, 204, 255);
+}
+
+
+.section-tecnologia .articles article>a {
+  background-color: #2b134b;
+  color: wheat;
+  border: solid 2px #2b134b;
+}
+
+.section-tecnologia .articles article>a:hover {
+  background-color: #2b134b;
+  color: wheat;
+  box-shadow: 0px 0px 15px #ffffff56;
+  border: solid 2px white;
+}
